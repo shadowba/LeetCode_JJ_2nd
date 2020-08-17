@@ -5,9 +5,8 @@ import java.util.*;
 public class playGround {
 
     public static void main(String[] args) {
-        P139_M_WordBreak tester = new P139_M_WordBreak();
-        String input = "applepenapple";
-        List<String>wordDict = new ArrayList<>(Arrays.asList("apple", "pen"));
-        tester.wordBreak(input,wordDict);
+        P49_M_GroupAnagrams tester = new P49_M_GroupAnagrams();
+        String[] strs = {"eat","tea","tan","ate","nat","bat"};
+        tester.groupAnagrams(strs);
     }
 }
