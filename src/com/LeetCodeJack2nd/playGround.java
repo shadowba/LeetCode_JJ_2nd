@@ -5,8 +5,10 @@ import java.util.*;
 public class playGround {
 
     public static void main(String[] args) {
-        P49_M_GroupAnagrams tester = new P49_M_GroupAnagrams();
-        String[] strs = {"eat","tea","tan","ate","nat","bat"};
-        tester.groupAnagrams(strs);
+        P95_M_UniqueBinarySearchTrees2 tester = new P95_M_UniqueBinarySearchTrees2();
+//        String[] strs = {"eat","tea","tan","ate","nat","bat"};
+//        String s = "25525511135";
+
+        tester.generateTrees(3);
     }
 }
