@@ -7,8 +7,22 @@ import java.util.*;
 public class playGround {
 
     public static void main(String[] args) {
-        P165_M_CompareVersionNumbers tester = new P165_M_CompareVersionNumbers();
-        tester.compareVersion("0.1","1.1");
+        P211_M_DesignAddAndSearchWordsDataStructure.WordDictionary tester = new P211_M_DesignAddAndSearchWordsDataStructure.WordDictionary();
+        tester.addWord("at");
+        tester.addWord("and");
+        tester.addWord("an");
+        tester.addWord("add");
+        tester.search("a");
+        tester.search(".at");
+        tester.addWord("bat");
+        tester.search(".at");
+
+        tester.search("an.");
+        tester.search("a.d.");
+        tester.search("b.");
+        tester.search("a.d");
+        tester.search(".");
+
     }
 }
 
